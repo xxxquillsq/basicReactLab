@@ -37,8 +37,8 @@ storiesOf("Exercises", module)
     return <CourseModulesEmbeddedVars />;
   })
   .add("03 - component with props", () => {
-    const twoModules = [modules[0], modules[1]];
-    return <CourseModulesWithProps modules={twoModules} course={name} />;
+    const fourModules = [modules[0], modules[1],modules[2],modules[3]];
+    return <CourseModulesWithProps modules={fourModules} course={name} />;
   })
   .add("04 - iteration", () => {
     return <CourseModulesCollections modules={modules} course={name} />;
